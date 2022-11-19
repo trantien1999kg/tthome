@@ -1,0 +1,9 @@
+@media only screen and ( max-width:1152px) and (min-width:1024px){
+    .grid-gioithieu {
+        grid-template-columns: repeat(2,1fr) !important;
+        grid-gap: 70px !important;
+    }
+    .gt {
+        font-size: calc(( 47.46 * 100vw ) / 1152 );
+    }
+}

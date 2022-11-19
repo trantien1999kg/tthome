@@ -1,0 +1,28 @@
+@font-face {
+
+    font-family: 'notoRegular';
+
+    src: url('../../../../images/fonts/notosans/NotoSans-Regular.eot');
+
+    src: url('../../../../images/fonts/notosans/NotoSans-Regular.eot') format('embedded-opentype'), url('../../../../images/fonts/notosans/NotoSans-Regular.ttf') format('truetype'), url('../../../../images/fonts/notosans/NotoSans-Regular.svg#NotoSans-Regular') format('svg');
+
+}
+@font-face {
+
+    font-family: 'notoBold';
+
+    src: url('../../../../images/fonts/notosans/NotoSans-Bold.eot');
+
+    src: url('../../../../images/fonts/notosans/NotoSans-Bold.eot') format('embedded-opentype'), url('../../../../images/fonts/notosans/NotoSans-Bold.ttf') format('truetype'), url('../../../../images/fonts/notosans/NotoSans-Bold.svg#NotoSans-Bold') format('svg');
+
+}
+@font-face {
+
+    font-family: 'RobotoBold';
+
+    src: url('../../../images/fonts/RobotoBold.eot');
+
+    src: url('../../../images/fonts/RobotoBold.eot') format('embedded-opentype'), url('../../../images/fonts/RobotoBold.woff2') format('woff2'), url('../../../images/fonts/RobotoBold.woff') format('woff'), url('../../../images/fonts/RobotoBold.ttf') format('truetype'), url('../../../images/fonts/RobotoBold.svg#RobotoBold') format('svg');
+
+}
+

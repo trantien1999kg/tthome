@@ -1,0 +1,302 @@
+/*
+    Phần CSS này sẽ có khoảng cách và size thay đổi dựa trên màn hình hiện hành của thiết bị 
+    Kỹ thuật lưu ý kỹ khi chọn dùng file css này
+*/
+
+
+/* 1 - reset element original */
+.original, .original p, .original p span,.original li span,.original li {
+    font-size: calc(100vw/96) !important;
+}
+.original h1, .original h2, .original h3, .original h4, .original h5, .original h6, 
+.original h1 span, .original h2 span, .original h3 span, 
+.original h4 span, .original h5 span, .original h6 span {
+    font-size: calc(100vw/75) !important;
+}
+/* 1 - reset element original */
+
+@media screen and (max-width:768px){
+    .original, .original p, .original p span, .original li span, .original li{
+        font-size: 14px !important;
+    }
+    .original h1, .original h2, .original h3, .original h4, .original h5, .original h6, 
+    .original h1 span, .original h2 span, .original h3 span, 
+    .original h4 span, .original h5 span, .original h6 span {
+        font-size:18px !important;
+    }
+}
+@media screen and (min-width:1440){
+    /* 2 - Khoảng cách giữa các thẻ với thẻ ngoài - Margin */
+    /* All route */
+    .mg0v{margin: 0;}
+    .mg5v{margin: calc(100vw / 272);} /* Margin 4 hướng 5px trên màn hình 1349px*/
+    .mg10v{margin: calc((100vw / 272) * 2);}
+    .mg15v{margin: calc((100vw / 272) * 3);}
+    .mg20v{margin: calc((100vw / 272) * 4);}
+    .mg25v{margin: calc((100vw / 272) * 5);}
+    .mg30v{margin: calc((100vw / 272) * 6);}
+    .mg35v{margin: calc((100vw / 272) * 7);}
+    .mg40v{margin: calc((100vw / 272) * 8);}
+    .mg45v{margin: calc((100vw / 272) * 9);}
+    .mg50v{margin: calc((100vw / 272) * 10);}
+    .mg55v{margin: calc((100vw / 272) * 11);}
+    .mg60v{margin: calc((100vw / 272) * 12);}
+    .mg65v{margin: calc((100vw / 272) * 13);}
+    .mg70v{margin: calc((100vw / 272) * 14);}
+    .mg75v{margin: calc((100vw / 272) * 15);}
+    .mg80v{margin: calc((100vw / 272) * 16);}
+    .mg85v{margin: calc((100vw / 272) * 17);}
+    .mg90v{margin: calc((100vw / 272) * 18);}
+    .mg95v{margin: calc((100vw / 272) * 19);}
+    .mg100v{margin: calc((100vw / 272) * 20);}
+    /* All route */
+
+    /*Top*/
+    .mt0v{margin-top: 0;} 
+    .mt5v{margin-top: calc(100vw / 272);} /* Margin top 5px trên màn hình 1349px*/
+    .mt10v{margin-top: calc((100vw / 272) * 2);}
+    .mt15v{margin-top: calc((100vw / 272) * 3);}
+    .mt20v{margin-top: calc((100vw / 272) * 4);}
+    .mt25v{margin-top: calc((100vw / 272) * 5);}
+    .mt30v{margin-top: calc((100vw / 272) * 6);}
+    .mt35v{margin-top: calc((100vw / 272) * 7);}
+    .mt40v{margin-top: calc((100vw / 272) * 8);}
+    .mt45v{margin-top: calc((100vw / 272) * 9);}
+    .mt50v{margin-top: calc((100vw / 272) * 10);}
+    .mt55v{margin-top: calc((100vw / 272) * 11);}
+    .mt60v{margin-top: calc((100vw / 272) * 12);}
+    .mt65v{margin-top: calc((100vw / 272) * 13);}
+    .mt70v{margin-top: calc((100vw / 272) * 14);}
+    .mt75v{margin-top: calc((100vw / 272) * 15);}
+    .mt80v{margin-top: calc((100vw / 272) * 16);}
+    .mt85v{margin-top: calc((100vw / 272) * 17);}
+    .mt90v{margin-top: calc((100vw / 272) * 18);}
+    .mt95v{margin-top: calc((100vw / 272) * 19);}
+    .mt100v{margin-top: calc((100vw / 272) * 20);}
+    /*Top*/
+
+    /*Right*/
+    .mr0v{margin-right: 0;} 
+    .mr5v{margin-right: calc(100vw / 272);} /* Margin right 5px trên màn hình 1349px*/
+    .mr10v{margin-right: calc((100vw / 272) * 2);}
+    .mr15v{margin-right: calc((100vw / 272) * 3);}
+    .mr20v{margin-right: calc((100vw / 272) * 4);}
+    .mr25v{margin-right: calc((100vw / 272) * 5);}
+    .mr30v{margin-right: calc((100vw / 272) * 6);}
+    .mr35v{margin-right: calc((100vw / 272) * 7);}
+    .mr40v{margin-right: calc((100vw / 272) * 8);}
+    .mr45v{margin-right: calc((100vw / 272) * 9);}
+    .mr50v{margin-right: calc((100vw / 272) * 10);}
+    .mr55v{margin-right: calc((100vw / 272) * 11);}
+    .mr60v{margin-right: calc((100vw / 272) * 12);}
+    .mr65v{margin-right: calc((100vw / 272) * 13);}
+    .mr70v{margin-right: calc((100vw / 272) * 14);}
+    .mr75v{margin-right: calc((100vw / 272) * 15);}
+    .mr80v{margin-right: calc((100vw / 272) * 16);}
+    .mr85v{margin-right: calc((100vw / 272) * 17);}
+    .mr90v{margin-right: calc((100vw / 272) * 18);}
+    .mr95v{margin-right: calc((100vw / 272) * 19);}
+    .mr100v{margin-right: calc((100vw / 272) * 20);}
+    /*Right*/
+
+    /*Bottom*/
+    .mb0v{margin-bottom: 0;}
+    .mb5v{margin-bottom: calc(100vw / 272);} /* Margin bottom 5px trên màn hình 1349px*/
+    .mb10v{margin-bottom: calc((100vw / 272) * 2);}
+    .mb15v{margin-bottom: calc((100vw / 272) * 3);}
+    .mb20v{margin-bottom: calc((100vw / 272) * 4);}
+    .mb25v{margin-bottom: calc((100vw / 272) * 5);}
+    .mb30v{margin-bottom: calc((100vw / 272) * 6);}
+    .mb35v{margin-bottom: calc((100vw / 272) * 7);}
+    .mb40v{margin-bottom: calc((100vw / 272) * 8);}
+    .mb45v{margin-bottom: calc((100vw / 272) * 9);}
+    .mb50v{margin-bottom: calc((100vw / 272) * 10);}
+    .mb55v{margin-bottom: calc((100vw / 272) * 11);}
+    .mb60v{margin-bottom: calc((100vw / 272) * 12);}
+    .mb65v{margin-bottom: calc((100vw / 272) * 13);}
+    .mb70v{margin-bottom: calc((100vw / 272) * 14);}
+    .mb75v{margin-bottom: calc((100vw / 272) * 15);}
+    .mb80v{margin-bottom: calc((100vw / 272) * 16);}
+    .mb85v{margin-bottom: calc((100vw / 272) * 17);}
+    .mb90v{margin-bottom: calc((100vw / 272) * 18);}
+    .mb95v{margin-bottom: calc((100vw / 272) * 19);}
+    .mb100v{margin-bottom: calc((100vw / 272) * 20);}
+    /*Bottom*/
+
+    /*Left*/
+    .ml0v{margin-left: 0;}
+    .ml5v{margin-left: calc(100vw / 272);} /* Margin left 5px trên màn hình 1349px*/
+    .ml10v{margin-left: calc((100vw / 272) * 2);}
+    .ml15v{margin-left: calc((100vw / 272) * 3);}
+    .ml20v{margin-left: calc((100vw / 272) * 4);}
+    .ml25v{margin-left: calc((100vw / 272) * 5);}
+    .ml30v{margin-left: calc((100vw / 272) * 6);}
+    .ml35v{margin-left: calc((100vw / 272) * 7);}
+    .ml40v{margin-left: calc((100vw / 272) * 8);}
+    .ml45v{margin-left: calc((100vw / 272) * 9);}
+    .ml50v{margin-left: calc((100vw / 272) * 10);}
+    .ml55v{margin-left: calc((100vw / 272) * 11);}
+    .ml60v{margin-left: calc((100vw / 272) * 12);}
+    .ml65v{margin-left: calc((100vw / 272) * 13);}
+    .ml70v{margin-left: calc((100vw / 272) * 14);}
+    .ml75v{margin-left: calc((100vw / 272) * 15);}
+    .ml80v{margin-left: calc((100vw / 272) * 16);}
+    .ml85v{margin-left: calc((100vw / 272) * 17);}
+    .ml90v{margin-left: calc((100vw / 272) * 18);}
+    .ml95v{margin-left: calc((100vw / 272) * 19);}
+    .ml100v{margin-left: calc((100vw / 272) * 20);}
+    /*Left*/
+
+    /* 2 - Khoảng cách giữa các thẻ với thẻ ngoài - Margin */
+
+
+    /* 3 - Khoảng cách với thẻ trong - Padding */
+
+    /* All route */
+    .pd0v{padding: 0;}
+    .pd5v{padding: calc(100vw / 272);} /* Padding 4 hướng 5px trên màn hình 1349px*/
+    .pd10v{padding: calc((100vw / 272) * 2);}
+    .pd15v{padding: calc((100vw / 272) * 3);}
+    .pd20v{padding: calc((100vw / 272) * 4);}
+    .pd25v{padding: calc((100vw / 272) * 5);}
+    .pd30v{padding: calc((100vw / 272) * 6);}
+    .pd35v{padding: calc((100vw / 272) * 7);}
+    .pd40v{padding: calc((100vw / 272) * 8);}
+    .pd45v{padding: calc((100vw / 272) * 9);}
+    .pd50v{padding: calc((100vw / 272) * 10);}
+    .pd55v{padding: calc((100vw / 272) * 11);}
+    .pd60v{padding: calc((100vw / 272) * 12);}
+    .pd65v{padding: calc((100vw / 272) * 13);}
+    .pd70v{padding: calc((100vw / 272) * 14);}
+    .pd75v{padding: calc((100vw / 272) * 15);}
+    .pd80v{padding: calc((100vw / 272) * 16);}
+    .pd85v{padding: calc((100vw / 272) * 17);}
+    .pd90v{padding: calc((100vw / 272) * 18);}
+    .pd95v{padding: calc((100vw / 272) * 19);}
+    .pd100v{padding: calc((100vw / 272) * 20);}
+    /* All route */
+
+    /*Top*/
+    .pt0v{padding-top: 0;}
+    .pt5v{padding-top: calc(100vw / 272);} /* Padding top 5px trên màn hình 1349px*/
+    .pt10v{padding-top: calc((100vw / 272) * 2);}
+    .pt15v{padding-top: calc((100vw / 272) * 3);}
+    .pt20v{padding-top: calc((100vw / 272) * 4);}
+    .pt25v{padding-top: calc((100vw / 272) * 5);}
+    .pt30v{padding-top: calc((100vw / 272) * 6);}
+    .pt35v{padding-top: calc((100vw / 272) * 7);}
+    .pt40v{padding-top: calc((100vw / 272) * 8);}
+    .pt45v{padding-top: calc((100vw / 272) * 9);}
+    .pt50v{padding-top: calc((100vw / 272) * 10);}
+    .pt55v{padding-top: calc((100vw / 272) * 11);}
+    .pt60v{padding-top: calc((100vw / 272) * 12);}
+    .pt65v{padding-top: calc((100vw / 272) * 13);}
+    .pt70v{padding-top: calc((100vw / 272) * 14);}
+    .pt75v{padding-top: calc((100vw / 272) * 15);}
+    .pt80v{padding-top: calc((100vw / 272) * 16);}
+    .pt85v{padding-top: calc((100vw / 272) * 17);}
+    .pt90v{padding-top: calc((100vw / 272) * 18);}
+    .pt95v{padding-top: calc((100vw / 272) * 19);}
+    .pt100v{padding-top: calc((100vw / 272) * 20);}
+    /*Top*/
+
+    /*Right*/
+    .pr0v{padding-right: 0;}
+    .pr5v{padding-right: calc(100vw / 272);}  /* Padding right 5px trên màn hình 1349px*/
+    .pr10v{padding-right: calc((100vw / 272) * 2);}
+    .pr15v{padding-right: calc((100vw / 272) * 3);}
+    .pr20v{padding-right: calc((100vw / 272) * 4);}
+    .pr25v{padding-right: calc((100vw / 272) * 5);}
+    .pr30v{padding-right: calc((100vw / 272) * 6);}
+    .pr35v{padding-right: calc((100vw / 272) * 7);}
+    .pr40v{padding-right: calc((100vw / 272) * 8);}
+    .pr45v{padding-right: calc((100vw / 272) * 9);}
+    .pr50v{padding-right: calc((100vw / 272) * 10);}
+    .pr55v{padding-right: calc((100vw / 272) * 11);}
+    .pr60v{padding-right: calc((100vw / 272) * 12);}
+    .pr65v{padding-right: calc((100vw / 272) * 13);}
+    .pr70v{padding-right: calc((100vw / 272) * 14);}
+    .pr75v{padding-right: calc((100vw / 272) * 15);}
+    .pr80v{padding-right: calc((100vw / 272) * 16);}
+    .pr85v{padding-right: calc((100vw / 272) * 17);}
+    .pr90v{padding-right: calc((100vw / 272) * 18);}
+    .pr95v{padding-right: calc((100vw / 272) * 19);}
+    .pr100v{padding-right: calc((100vw / 272) * 20);}
+    /*Right*/
+
+    /*Bottom*/
+    .pb0v{padding-bottom: 0;}
+    .pb5v{padding-bottom: calc(100vw / 272);} /* Padding bottom 5px trên màn hình 1349px*/
+    .pb10v{padding-bottom: calc((100vw / 272) * 2);}
+    .pb15v{padding-bottom: calc((100vw / 272) * 3);}
+    .pb20v{padding-bottom: calc((100vw / 272) * 4);}
+    .pb25v{padding-bottom: calc((100vw / 272) * 5);}
+    .pb30v{padding-bottom: calc((100vw / 272) * 6);}
+    .pb35v{padding-bottom: calc((100vw / 272) * 7);}
+    .pb40v{padding-bottom: calc((100vw / 272) * 8);}
+    .pb45v{padding-bottom: calc((100vw / 272) * 9);}
+    .pb50v{padding-bottom: calc((100vw / 272) * 10);}
+    .pb55v{padding-bottom: calc((100vw / 272) * 11);}
+    .pb60v{padding-bottom: calc((100vw / 272) * 12);}
+    .pb65v{padding-bottom: calc((100vw / 272) * 13);}
+    .pb70v{padding-bottom: calc((100vw / 272) * 14);}
+    .pb75v{padding-bottom: calc((100vw / 272) * 15);}
+    .pb80v{padding-bottom: calc((100vw / 272) * 16);}
+    .pb85v{padding-bottom: calc((100vw / 272) * 17);}
+    .pb90v{padding-bottom: calc((100vw / 272) * 18);}
+    .pb95v{padding-bottom: calc((100vw / 272) * 19);}
+    .pb100v{padding-bottom: calc((100vw / 272) * 20);}
+    /*Bottom*/
+
+    /*Left*/
+    .pl0v{padding-left: 0;}
+    .pl5v{padding-left: calc(100vw / 272);}  /* Padding left 5px trên màn hình 1349px*/
+    .pl10v{padding-left: calc((100vw / 272) * 2);}
+    .pl15v{padding-left: calc((100vw / 272) * 3);}
+    .pl20v{padding-left: calc((100vw / 272) * 4);}
+    .pl25v{padding-left: calc((100vw / 272) * 5);}
+    .pl30v{padding-left: calc((100vw / 272) * 6);}
+    .pl35v{padding-left: calc((100vw / 272) * 7);}
+    .pl40v{padding-left: calc((100vw / 272) * 8);}
+    .pl45v{padding-left: calc((100vw / 272) * 9);}
+    .pl50v{padding-left: calc((100vw / 272) * 10);}
+    .pl55v{padding-left: calc((100vw / 272) * 11);}
+    .pl60v{padding-left: calc((100vw / 272) * 12);}
+    .pl65v{padding-left: calc((100vw / 272) * 13);}
+    .pl70v{padding-left: calc((100vw / 272) * 14);}
+    .pl75v{padding-left: calc((100vw / 272) * 15);}
+    .pl80v{padding-left: calc((100vw / 272) * 16);}
+    .pl85v{padding-left: calc((100vw / 272) * 17);}
+    .pl90v{padding-left: calc((100vw / 272) * 18);}
+    .pl95v{padding-left: calc((100vw / 272) * 19);}
+    .pl100v{padding-left: calc((100vw / 272) * 20);}
+    /*Left*/
+    /* 3 - Khoảng cách với thẻ trong - Padding */
+
+    /* 4 - khoảng cách của các template flex */
+
+        .row5v{margin: 0px calc(100vw/ -272);}
+        
+        .row10v{margin: 0px calc(100vw/ -136);}
+        
+        .rowv{margin: 0px calc(100vw/ -91);}
+        
+        .row20v{margin: 0px calc(100vw/ -68);}
+        
+        .item5v {padding: 0px calc(100vw/ 272);}
+        
+        .itemv{padding: 0px calc(100vw/ 91);}
+        
+        .item10v {padding: 0px calc(100vw/ 136);}
+        
+        .item20v {padding: 0px calc(100vw/ 68);}
+    /* 4 - khoảng cách của các template flex */
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        line-height: 1.1;
+        margin-top: calc(100vw/192) !important;
+        margin-bottom: calc(100vw/192) !important;
+    }
+    p{margin-bottom:calc(100vw/136)}
+}
+

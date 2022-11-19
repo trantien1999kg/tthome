@@ -1,0 +1,13 @@
+@media only screen and (max-width:1024px) and (min-width:960px){
+    .grid-gioithieu {
+        grid-template-columns: repeat(2,1fr) !important;
+        grid-gap: 30px !important;
+    }
+    .d-none-m{
+        display: none;
+    }
+    .gt {
+        font-size: calc(( 47.46 * 100vw ) / 1024 );
+    }
+
+}

@@ -1,0 +1,17 @@
+@font-face {
+
+    font-family: 'utmavo';
+
+    src: url('../../../images/fonts/utmavo/UTM Avo.ttf');
+
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'utmavo_b';
+
+    src: url('../../../images/fonts/utmavo/UTM AvoBold.ttf');
+
+    font-display: swap;
+}

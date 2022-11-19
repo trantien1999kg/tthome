@@ -1,0 +1,8 @@
+@media only screen and ( max-width:1280px) and (min-width:1153px){
+    .grid-gioithieu {
+        grid-gap: 100px !important;
+    }
+    .gt {
+        font-size: calc(( 47.46 * 100vw ) / 1280 );
+    }
+}

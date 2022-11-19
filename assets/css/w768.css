@@ -1,0 +1,17 @@
+@media only screen and (max-width:768px){
+    .grid-gioithieu {
+        grid-template-columns: repeat(1,1fr) !important;
+        grid-gap: 0px !important;
+    }
+    .responGT{
+        width: 90vw;
+        margin-top: 50px;
+    }
+    .box-GT{
+        padding-top: 60px !important;
+        padding-left: 0px !important;
+    } 
+    .gt {
+        font-size: calc(( 47.46 * 100vw ) / 768 );
+    }
+}

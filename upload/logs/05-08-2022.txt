@@ -1,0 +1,5 @@
+14.252.42.127()--insert--counters(708) (17:52:29 05/08/2022)
+14.252.42.127()--query--tables(delete from table_online where time<1659696149) (17:52:29 05/08/2022)
+14.252.42.127()--insert--online(265439) (17:52:29 05/08/2022)
+14.252.42.127()--query--tables(delete from table_online where time<1659696341) (17:55:41 05/08/2022)
+14.252.42.127()--insert--online(265440) (17:55:41 05/08/2022)
